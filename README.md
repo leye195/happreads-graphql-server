@@ -1,3 +1,7 @@
 # HappReads-graphql-server (With Apollo-Server)
 
-- 기존의 HappReads-BackServer에서 제공하는 API를 grphql server를 통해 전체 데이터가 아닌 원하는 데이타 부분만 가져오도록 설정중
+### ToDo
+
+- 기존의 HappReads-BackServer의 API를 참고 graphql server type schema 작성 [ ]
+- resolver 작성 [ ]
+- Apollo-Server에 schema, resolvers 연결 [ ]
