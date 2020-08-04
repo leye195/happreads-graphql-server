@@ -66,6 +66,14 @@ const typeDefs = gql`
     avg_vote: String
     createdAt: String!
   }
+  type LoginResponse {
+    success: Boolean!
+    token: String!
+    me: User!
+  }
+  type SignupResponse {
+    success: Boolean!
+  }
   type Query {
     books(page: Int): BookConnection!
     book(id: ID!): Book
@@ -74,6 +82,10 @@ const typeDefs = gql`
     sliderBooks: [Book]
     bookReviews(id: ID!): [ReviewConnection]!
     profile(id: ID!): User
+  }
+  type Mutation {
+    signup(email: String, password: String): SignupResponse!
+    login(email: String, password: String): LoginResponse!
   }
 `;
 export default typeDefs;

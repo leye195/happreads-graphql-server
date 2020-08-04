@@ -13,7 +13,9 @@
     "apollo-datasource": "^0.7.2",
     "apollo-datasource-rest": "^0.9.3",
     "apollo-server": "^2.16.1",
-    "graphql": "^15.3.0"
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "mongoose": "^5.9.27"
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",
